@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media screen and (min-width: 992px) {
+  .verifyDegreeContainer {
+    max-width: 30%;
+    margin: 2em auto;
+  }
+
+  .addDegreeContainer {
+    max-width: 30%;
+    margin: 2em auto;
+  }
+}
+
+.response {
+  margin: 1rem 0;
+  background: #191740;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 1rem !important;
+}
